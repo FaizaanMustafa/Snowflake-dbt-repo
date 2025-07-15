@@ -1,0 +1,6 @@
+seeds:
+  - name: customers2
+    config: 
+      full_refresh: true
+      column_types:
+        CODE: string   
