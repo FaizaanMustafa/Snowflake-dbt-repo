@@ -1,0 +1,18 @@
+sources:
+  - name: 'faizaan_sources'
+    database: DBT_TEST
+    schema: TEST
+    tables: 
+      - name: CUSTOMER
+      - name: DIM_PAY
+      - name: new_currency
+      - name : SCD_EG
+      
+
+models:
+  - name: 'users_v2'
+    config:
+      materialized: 'table'
+  - name: 'users_dbt'
+    config:
+      materialized: 'table'
